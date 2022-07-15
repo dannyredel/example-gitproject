@@ -1,0 +1,27 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1657878041993.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "F1D63A1D",
+    "lastKnownWriteTime" : 1657892529,
+    "last_content_update" : 1657892587378,
+    "path" : "C:/Users/danny/OneDrive/Análisis Cuantitativo y Econometría/RStudio & RMarkdown/Workshop Reproducible Research/mydocument.Rmd",
+    "project_path" : "mydocument.Rmd",
+    "properties" : {
+        "cursorPosition" : "59,0",
+        "last_setup_crc32" : "",
+        "scrollLine" : "49",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

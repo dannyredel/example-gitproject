@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1657878432565.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "CD2105D1",
+    "lastKnownWriteTime" : 1657879964,
+    "last_content_update" : 1657879964275,
+    "path" : "C:/Users/danny/OneDrive/Análisis Cuantitativo y Econometría/RStudio & RMarkdown/Workshop Reproducible Research/manuscript/journals.Rmd",
+    "project_path" : "manuscript/journals.Rmd",
+    "properties" : {
+        "cursorPosition" : "10,12",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

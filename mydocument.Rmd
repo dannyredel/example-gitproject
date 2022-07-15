@@ -1,0 +1,60 @@
+---
+title: 'Journals: Random Words With Random Data^[Preliminary draft. Please do not cite or circulate without permission from the author.]'
+subtitle: A Mock Paper for an R Markdown Workshop
+author: "Daniel Redel^[Department of Economics, Tilburg University. Email: dannyredel@gmail.com]"
+date: "`r format(Sys.Date(), '%d %B %Y')`"
+bibliography: references.bib
+csl: apa_7th.csl
+link-citations: yes
+linkcolor: blue
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+<!--este texto es invisible -->
+
+This is the first sentence of a paragraph as it is preceded by a blank line. This is the second sentence of that paragraph, which is followed by a blank line. 
+
+This is the first sentence of a *new paragraph* as it is preceded by a blank line. This is the  second sentence of that paragraph, which is followed by a blank line.
+
+[@bennett2015]
+
+[@bennett2015; @gilbert2019]
+
+```{r cars}
+
+df <- cars
+summary(cars)
+
+```
+
+The average speed of cars is `r mean(df$speed)`.
+
+```{r, data_table, echo=FALSE, results="asis"}
+library(stargazer)
+stargazer(data = head(cars, n = 4), type = "latex", summary = FALSE, header = FALSE,
+          title = "First four rows of the dataset")
+
+```
+
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+[Conclusion](## R Markdown)
+
+This is the last sentence of an APA style manuscript.
+
+## References
+
+
