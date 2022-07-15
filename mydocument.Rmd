@@ -26,6 +26,35 @@ This is the first sentence of a *new paragraph* as it is preceded by a blank lin
 
 [@bennett2015; @gilbert2019]
 
+```{r cars}
 
+df <- cars
+summary(cars)
+
+```
+
+The average speed of cars is `r mean(df$speed)`.
+
+```{r, data_table, echo=FALSE, results="asis"}
+library(stargazer)
+stargazer(data = head(cars, n = 4), type = "latex", summary = FALSE, header = FALSE,
+          title = "First four rows of the dataset")
+
+```
+
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+[Conclusion](## R Markdown)
+
+This is the last sentence of an APA style manuscript.
+
+## References
 
 
